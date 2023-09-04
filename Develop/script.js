@@ -5,10 +5,13 @@ var generateBtn = document.querySelector("#generate");
 //Function called generatePassword
 
 function generatePassword() {
-  var lowercase = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
-  var capital = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
-  var numeric = "0 1 2 3 4 5 6 7 8 9";
-  
+  var lowercase = "abcdefghijklmnopqrstuvwxyz";
+  var capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numeric = "0123456789";
+  var special = "!@#$%^&*()_+-={}[]:;<>,.?/"
+  var choseOptions = "";
+  var result = "";
+
 
 //Prompt user for pw length
 
@@ -26,20 +29,61 @@ if (passwordLength < 8 || passwordLength > 180) {
 //Ask user if they want to include:
 
 //Capital letters
-var includeCapital = alert("Capital?")
+var includeCapital = confirm("Capital?")
 //Lowercase letters?
-var includeLowercase = alert("Lowercase?")
+var includeLowercase = confirm("Lowercase?")
 //Numbers specials?
-var includeNumeric = alert("Numbers?")
+var includeNumeric = confirm("Numbers?")
+//special?
+var includeSpecial = confirm("Special?")
 //Keep track of answers in variables.
+console.log(includeCapital)
+console.log(includeLowercase)
+
+
+//created new variable choseOptions (concatination was done) (Tutor Help: Andres Jimenez)
+if(includeCapital){
+choseOptions=choseOptions+capital;
+}
+
+if(includeLowercase){
+  choseOptions=choseOptions+ lowercase;
+}
+
+if(includeNumeric){
+  choseOptions=choseOptions+numeric;
+}
+
+if(includeSpecial){
+  choseOptions=choseOptions+special;
+}
+//checking what choseOptions does
+console.log(choseOptions);
+
+//created a for loop so that code block would run the amount of times i chose for ps length
+for(var i =0; i< passwordLength; i++){
+//charAt, Math.floor, & Math.random I used W3 schools to help me with line of code.  
+result = result+choseOptions.charAt(Math.floor(Math.random() * choseOptions.length))
+//checked what result does
+console.log(result);
+}
+
+return result;
+
+
+}
+
+//should validate if at least 1 character type should be selected
+
+
 
 
 
 
 // Function to generate a random password based on user criteria
-function NewPassword
+//function newPassword
 
-}
+
 
 // Write password to the #password input
 function writePassword() {
