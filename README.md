@@ -46,8 +46,6 @@ Open the project folder in your preferred code editor or simply double-click the
 
 
 
-
-
 ## Credits
 
 Andres Jimenez - EDX Bootcamp Tutoring Services 
