@@ -42,8 +42,12 @@ W3 Schools: https://www.w3schools.com/
 
 ## Features
 
-Generates strong and secure passwords.
-Customizable password length.
-Allows users to choose the character types to include in the password.
-Provides a user-friendly interface for generating passwords.
-Copy password to clipboard with a single click.
+- Generates strong and secure passwords.
+
+- Customizable password length.
+
+- Allows users to choose the character types to include in the password.
+
+- Provides a user-friendly interface for generating passwords.
+
+- Copy password to clipboard with a single click.
