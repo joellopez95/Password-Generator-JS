@@ -34,7 +34,16 @@ Open the project folder in your preferred code editor or simply double-click the
 - You can generate additional passwords by clicking the "Generate Password" icon.
 
 - Visual step by step guide: 
-![stepBystep](assets/Images)
+![stepBystep](Assets/Images/ClickOnGeneratePassword.png)
+![stepBystep](Assets/Images/EnterDesiredPSLength.png)
+![stepBystep](Assets/Images//CapitalYN.png)
+![stepBystep](Assets/Images/lowerYN.png)
+![stepBystep](Assets/Images/numbersYN.png)
+![stepBystep](Assets/Images/specialYN.png)
+![stepBystep](Assets/Images/generatedpassword.png)
+![stepBystep](Assets/Images/invalid%20input.png)
+
+
 
 
 
