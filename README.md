@@ -33,6 +33,17 @@ Open the project folder in your preferred code editor or simply double-click the
 
 - You can generate additional passwords by clicking the "Generate Password" icon.
 
+- Visual step by step guide: 
+![stepBystep](assets/Image/ClickOnGeneratePassword.png)
+![stepBystep](assets/Image/EnterDesiredPSLength.png)
+![stepBystep](assets/Image/CapitalYN.png)
+![stepBystep](assets/Image/lowerYN.png)
+![stepBystep](assets/Image/numbersYN.png)
+![stepBystep](assets/Image/specialYN.png)
+![stepBystep](assets/Image/invalid%20input.png)
+
+
+
 ## Credits
 
 Andres Jimenez - EDX Bootcamp Tutoring Services 
